@@ -115,9 +115,9 @@ export default function CarRentalTips() {
             </h2>
             <p className="text-gray-700">
               The easiest way to get a good deal on a rental car is to use our
-              filters. At the top of the filter list, you'll find a section
-              featuring our best car rental offers. Check the filter for "Great
-              Deal," and your search results will be filled with specials.
+              filters. At the top of the filter list, youll find a section
+              featuring our best car rental offers. Check the filter for Great
+              Deal, and your search results will be filled with specials.
             </p>
           </section>
 
