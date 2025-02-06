@@ -70,15 +70,15 @@ const RentalCars = () => {
   };
 
   return (
-    <div className="my-4">
-      <div className="grid grid-cols-2 gap-4 mb-4">
+    <div className=" ">
+      <div className="grid grid-cols-6 gap-4 mb-4">
         <input
           type="text"
           name="pickup"
           placeholder="Pickup Location"
           value={searchData.pickup}
           onChange={handleChange}
-          className="border p-2 w-full"
+          className="border border-1 border-black rounded-lg p-2 w-full"
         />
         <input
           type="text"
@@ -86,51 +86,38 @@ const RentalCars = () => {
           placeholder="Drop-off Location"
           value={searchData.dropoff}
           onChange={handleChange}
-          className="border p-2 w-full"
+          className="border border-1 border-black rounded-lg p-2 w-full"
         />
-      </div>
 
-      <div className="grid grid-cols-3 gap-4 mb-4">
-        <input
-          type="number"
-          name="travelers"
-          min="1"
-          value={searchData.travelers}
-          onChange={handleChange}
-          className="border p-2 w-full"
-        />
         <input
           type="date"
           name="pickupDate"
           value={searchData.pickupDate}
           onChange={handleChange}
-          className="border p-2 w-full"
+          className="border border-1 border-black rounded-lg p-2 w-full"
         />
         <input
           type="time"
           name="pickupTime"
+          placeholder="pickupTime"
           value={searchData.pickupTime}
           onChange={handleChange}
-          className="border p-2 w-full"
+          className="border border-1 border-black rounded-lg p-2 w-full"
         />
-      </div>
-
-      <div className="grid grid-cols-2 gap-4 mb-4">
         <input
           type="time"
-          name="dropoffTime"
-          value={searchData.dropoffTime}
+          name="dropOffTime"
+          value={searchData.pickupTime}
           onChange={handleChange}
-          className="border p-2 w-full"
+          className="border border-1 border-black rounded-lg p-2 w-full"
         />
+        <button
+          onClick={handleSearch}
+          className="bg-blue-600 text-white px-6 py-2  rounded-full"
+        >
+          Search
+        </button>
       </div>
-
-      <button
-        onClick={handleSearch}
-        className="bg-blue-600 text-white px-6 py-2 rounded-full"
-      >
-        Search
-      </button>
 
       <div className="mt-6">
         {results.length > 0 ? (

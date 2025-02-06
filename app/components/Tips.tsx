@@ -1,6 +1,6 @@
 export default function CarRentalTips() {
   return (
-    <div className="">
+    <div className="lg:py-4 lg:mx-80 py-0 mx-4">
       <h1 className="text-3xl font-bold mb-6">
         Top Tips to Consider When Booking a Car Rental
       </h1>

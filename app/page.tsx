@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import CarRentalTips from "./components/Tips";
 export default function Home() {
   return (
-    <div className=" lg:py-4 lg:mx-20 py-0 mx-4">
+    <div>
       <Header />
       <Tab />
       <PopularCars />
