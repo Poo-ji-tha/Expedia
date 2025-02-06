@@ -7,7 +7,7 @@ const Tab = () => {
   const [activeTab, setActiveTab] = useState("rental"); // Track active tab
 
   return (
-    <div className="my-4 lg:py-4 lg:mx-80 py-0 mx-4">
+    <div className="my-4 lg:py-4 lg:mx-56 py-0 mx-4">
       <h1 className="text-3xl font-bold mb-2">Search Cars</h1>
       <div className="border-b border-gray-200 shadow-md">
         <ul className="flex flex-wrap -mb-px text-sm font-medium text-center text-gray-500">

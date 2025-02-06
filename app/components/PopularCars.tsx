@@ -18,16 +18,16 @@ const carCategories = [
 
 const PopularCars = () => {
   return (
-    <div className="lg:py-4 lg:mx-80 py-0 mx-4">
+    <div className="lg:py-4 lg:mx-52 py-0 mx-4">
       <h2 className="text-3xl font-bold text-gray-900 mb-4">
         Popular Car Categories
       </h2>
 
-      <div className="flex space-x-4 overflow-x-auto scrollbar-hide">
+      <div className="flex space-x-2 overflow-x-auto scrollbar-hide">
         {carCategories.map((car, index) => (
           <div
             key={index}
-            className="relative w-48 h-56 rounded-3xl overflow-hidden shadow-lg flex-shrink-0"
+            className="relative w-44 h-60 rounded-3xl overflow-hidden shadow-lg flex-shrink-0"
           >
             {/* Car Image with Grayscale */}
             <Image
@@ -52,11 +52,11 @@ const PopularCars = () => {
         Trending Rent a Car Destination
       </h2>
 
-      <div className="flex space-x-4 overflow-x-auto scrollbar-hide">
+      <div className="flex space-x-2 overflow-x-auto scrollbar-hide">
         {carCategories.map((car, index) => (
           <div
             key={index}
-            className="relative w-48 h-56 rounded-3xl overflow-hidden shadow-lg flex-shrink-0"
+            className="relative w-44 h-60 rounded-3xl overflow-hidden shadow-lg flex-shrink-0"
           >
             {/* Car Image with Grayscale */}
             <Image
